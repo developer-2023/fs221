@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrow function</title>
+</head>
+<body>
+    
+    <script>
+        // standard
+        function multiply(a, b) {
+            return a * b;
+        }
+        let c = multiply(3, 4);
+        console.log(c);
+
+        // arrow function
+        let multiply1 = (a, b) => a * b;
+        console.log(multiply1(3, 4));
+
+        // arrow function with {}
+        let multiply2 = (a, b) => {
+            return a * b;
+        }
+        console.log(multiply2(3, 4));
+    </script>
+</body>
+</html>
